@@ -1,14 +1,17 @@
 /*
 Author: Jay Torres
 Date: October 23, 2020
-FileName: AddressBookRelationships.cpp
+FileName: Employer.h
 Purpose: Address Book Program using relationships - Allows the users to navigate a menu, input and display records inside the book program.
 */
-
+#include <cstdlib>
 #include <iostream>
 
-int main()
-{
-    std::cout << "Hello World!\n";
-}
+using namespace std;
 
+#ifndef EMPLOYER_H
+#define EMPLOYER_H
+class Employer
+{
+};
+#endif

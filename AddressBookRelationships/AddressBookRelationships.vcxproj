@@ -152,6 +152,14 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="AddressBookRelationships.cpp" />
+    <ClCompile Include="Employer.cpp" />
+    <ClCompile Include="Person.cpp" />
+    <ClCompile Include="PersonalInfo.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Employer.h" />
+    <ClInclude Include="Person.h" />
+    <ClInclude Include="PersonalInfo.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
